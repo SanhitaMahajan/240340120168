@@ -1,0 +1,29 @@
+Q1.
+
+a. create empty data.txt file 
+dac@dac-Veriton-M200-H310:~/Desktop/240340120168/Question1$ vi data.txt
+
+dac@dac-Veriton-M200-H310:~/Desktop/240340120168/Question1$ ls
+data.txt
+
+
+
+b. Rename data.txt to data1.txt 
+dac@dac-Veriton-M200-H310:~/Desktop/240340120168/Question1$ mv data.txt data1.txt
+
+dac@dac-Veriton-M200-H310:~/Desktop/240340120168/Question1$ ls
+data1.txt
+
+ 
+ 
+c. Create file "mine.txt" and change it's permission so that only others are allowed to read and write 
+
+
+
+
+d. Create a new user "cdac3" with uid "5000"
+dac@dac-Veriton-M200-H310:~/Desktop/240340120168/Question1$ sudo adduser cdac3 --uid 5000
+
+
+
+e. Change the group of "mine.txt" to "cdac2" user 
